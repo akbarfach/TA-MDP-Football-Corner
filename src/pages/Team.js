@@ -9,7 +9,7 @@ export default function Team() {
   useEffect(() => {
     const options = {
       method: 'GET',
-      url: `http://api.football-data.org/v2/teams/${teamId}`,
+      url: `https://api.football-data.org/v2/teams/${teamId}`,
       headers: {
         'X-Auth-Token': 'ea0130e692a3472889646ef54e20b7e3',
       },

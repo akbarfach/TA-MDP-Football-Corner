@@ -9,7 +9,7 @@ export default function Competition(props) {
   useEffect(() => {
     const options = {
       method: 'GET',
-      url: 'http://api.football-data.org/v2/competitions',
+      url: 'https://api.football-data.org/v2/competitions',
       headers: {
         'X-Auth-Token': 'ea0130e692a3472889646ef54e20b7e3',
       },

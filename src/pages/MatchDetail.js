@@ -9,7 +9,7 @@ export default function MatchDetail() {
   useEffect(() => {
     const match = {
       method: 'GET',
-      url: `http://api.football-data.org/v2/matches/${matchId}`,
+      url: `https://api.football-data.org/v2/matches/${matchId}`,
       headers: {
         'X-Auth-Token': 'ea0130e692a3472889646ef54e20b7e3',
       },
